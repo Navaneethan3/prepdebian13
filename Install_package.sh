@@ -4,7 +4,8 @@
 sudo apt update
 
 # Define the packages to install
-packages=("xfce4-terminal" "firefox" "vim" "emacs" "flatpak" "git" "findutils" "fd-find" "plymouth-x11" "gnome-boxes")
+packages=("xfce4-terminal" "vim" "plymouth-x11" "adwaita-icon-theme-legacy" "curl" "clang" "emacs" "fd-find" "findutils" "flatpak" "git" "gnome-boxes"
+"gedit" "gpaste-2" ) 
 failed_packages=()
 
 # Install each package
