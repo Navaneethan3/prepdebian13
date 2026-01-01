@@ -4,7 +4,7 @@
 sudo apt update
 
 # Define the packages to install
-packages=( "adwaita-icon-theme-legacy" "apt-transport-https" "curl" "clang" "emacs" "fd-find" "findutils" "flatpak" "git" "gnome-boxes"
+packages=( "adwaita-icon-theme-legacy" "apt-transport-https" "curl" "clang" "emacs" "extrepo" "fd-find" "findutils" "flatpak" "git" "gnome-boxes"
 "gedit" "gpaste-2" "plymouth-x11" "vim" "wget" "xfce4-terminal" ) 
 failed_packages=()
 
