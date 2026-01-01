@@ -24,9 +24,10 @@ sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages
 # Add Element IO repository
 echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
 
-# Update package list again 
+# Update package list again and install extrepo
 sudo apt update && sudo apt install extrepo -y
 
+# enable librewolf repo using extrepo
 sudo extrepo enable librewolf
 
 # Install Element desktop client and Brave browser
